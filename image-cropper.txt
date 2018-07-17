@@ -2,3 +2,21 @@ npm install ngx-image-cropper --save
 
 import { NgModule } from '@angular/core';
 import { ImageCropperModule } from 'ngx-image-cropper';
+
+@NgModule({
+    imports: [
+        ...
+        ImageCropperModule
+    ],
+    declarations: [
+        ...
+    ],
+    exports: [
+        ...
+    ],
+    providers: [
+        ...
+    ]
+})
+export class YourModule {
+}
