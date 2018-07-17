@@ -20,3 +20,6 @@ import { ImageCropperModule } from 'ngx-image-cropper';
 })
 export class YourModule {
 }
+
+
+<input type="file" (change)="fileChangeEvent($event)" />
