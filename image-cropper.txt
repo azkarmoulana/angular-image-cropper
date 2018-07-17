@@ -43,3 +43,7 @@ croppedImage: any = '';
 fileChangeEvent(event: any): void {
     this.imageChangedEvent = event;
 }
+
+imageCropped(image: string) {
+    this.croppedImage = image;
+}
