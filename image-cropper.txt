@@ -47,3 +47,7 @@ fileChangeEvent(event: any): void {
 imageCropped(image: string) {
     this.croppedImage = image;
 }
+
+imageLoaded() {
+    // show cropper
+}
