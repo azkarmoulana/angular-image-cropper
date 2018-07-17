@@ -51,3 +51,7 @@ imageCropped(image: string) {
 imageLoaded() {
     // show cropper
 }
+
+loadImageFailed() {
+    // show message
+}
