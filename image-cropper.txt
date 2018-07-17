@@ -34,3 +34,5 @@ export class YourModule {
     (imageLoaded)="imageLoaded()"
     (loadImageFailed)="loadImageFailed()"
 ></image-cropper>
+
+<img [src]="croppedImage" />
